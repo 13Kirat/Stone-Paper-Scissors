@@ -13,8 +13,8 @@ h1{
 }
 
 .choice{
-    height: 165px;
-    width: 165px;
+    /* height: 25vmax;
+    width: 25vmax; */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -27,15 +27,17 @@ h1{
 
 .choice:hover{
     cursor: pointer;
-    background-color: #081b31;
+    /* background-color: #081b31; */
+    border: 5px solid #081b31;
 }
 
 .choices{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    margin-top: 5rem;
+    /* flex-wrap: wrap; */
+    gap: 3vw;
+    margin-top: 3rem;
 }
 
 img{
@@ -53,23 +55,23 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    margin-top: 3rem;
+    font-size: 5vmin;
+    margin-top: 2rem;
     gap: 5rem;
 }
 
 #user-score, #comp-score{
-    font-size: 4rem;
+    font-size: 10vmin;
 }
 
 .msg-container{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 #msg{
     background-color: #081b31;
     color: white;
-    font-size: 2rem;
+    font-size: 5vmin;
     margin-top: 5rem;
     display: inline;
     padding: 1rem;
